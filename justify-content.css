@@ -1,0 +1,38 @@
+.flexStart{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.flexEnd{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.item{
+    height:200px;
+    width:200px;
+    background-color: cadetblue;
+    margin: 20px;
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+}
+
+.spaceAround{
+    display:flex;
+    justify-content: space-around;
+}
+
+.spaceBetween{
+    display: flex;
+    justify-content: space-between;
+}
+
+.anotherItem{
+    height:200px;
+    width:200px;
+    background-color: cadetblue;
+    margin: 20px 0;
+}
