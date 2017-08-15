@@ -1,0 +1,16 @@
+.flexBox{
+    display: flex;
+    flex-flow:row nowrap; /*flex-flow属性是flex-direction属性和flex-wrap属性的简写形式，默认值为row nowrap*/;
+}
+
+.item{
+    height: 300px;
+    width:300px;
+    background-color: aquamarine;
+    margin: 20px;
+}
+
+.wrapFlex{
+    display: flex;
+    flex-flow: row wrap;
+}
