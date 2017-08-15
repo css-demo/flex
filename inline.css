@@ -1,0 +1,11 @@
+.flexBox{
+    display: inline-flex;
+    border: 1px solid #FF00FF;
+}
+
+.item{
+    width:200px;
+    height:200px;
+    background-color: cornflowerblue;
+    margin: 20px;
+}
