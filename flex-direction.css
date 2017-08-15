@@ -1,0 +1,49 @@
+.myFlex{
+    display: flex;
+    flex-direction: row;   /*row,row-reverse,column,column-reverse*/
+}
+
+.item1{
+    height:200px;
+    width:200px;
+    margin: 5px;
+    background: pink;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    border: 1px solid darkorange;
+}
+
+.no-height{
+    display: flex;
+    flex-direction: row;
+}
+
+.sameItem{
+    width: 100px;
+    background-color: #00FF00;
+    margin: 5px;
+}
+
+.left{
+    height:100px;
+    width:200px;
+    margin: 5px;
+    background: pink;
+}
+
+.right{
+    height:300px;
+    width:200px;
+    margin: 5px;
+    background: pink;
+}
+
+.center{
+    height:150px;
+    width:200px;
+    margin: 5px;
+    background: pink;
+}
